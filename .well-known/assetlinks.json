@@ -1,0 +1,17 @@
+[{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://jeran.github.io"
+  }
+ },
+ {
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "dev.jeran.autofill",
+    "sha256_cert_fingerprints": [
+      "E1:85:BC:42:09:3C:26:CC:39:15:60:D9:D0:83:DA:EE:88:88:6D:53:CF:62:66:95:05:35:63:4B:26:5F:B9:DB"
+    ]
+  }
+ }]
